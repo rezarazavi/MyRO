@@ -1,0 +1,5 @@
+#JSGF V1.0;
+grammar com.acme.myrocommand;
+// Body
+public <myrocommand> = MYRO <command> ;
+<command> = move forward | move backward | turn left | turn right | stop | hi | introduce yourself | find the ball | how many people you can see | where are you from|what is your name | how is the weather | follow the hand | where are you;

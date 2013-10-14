@@ -1,0 +1,19 @@
+Myro move forward
+Myro move backward
+Myro turn left
+Myro turn right
+Myro stop
+Myro how many people you can see
+Myro hi
+Myro intruduce yourself
+Myro find the ball
+Myro how many people you can see
+Myro who is your father
+
+<command> = /2/ <move> | /2/ <turn> | /4/ stop | /1/ hi | /1/ how many people you can see | /1/ intruduce yourself | /1/ find the ball | /1/ who is your father;
+<move> = move <direction>;
+<direction> = forward | backward;
+<turn> = turn <direct>
+<direct> = left | right;
+
+

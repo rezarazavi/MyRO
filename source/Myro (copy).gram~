@@ -1,0 +1,9 @@
+#JSGF V1.0;
+grammar basiccmd;
+public <basicCmd> = <myro> <command>;
+<myro>= MYRO;  
+<command> = MOVE FORWARD | MOVE BACKWARD | TURN LEFT | TURN RIGHT | STOP | HI | HOW MANY PEOPLE YOU CAN SEE | INTRUDUCE YOURSELF | FIND THE BALL | WHO IS YOUR FATHER;
+
+
+
+

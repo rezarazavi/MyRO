@@ -1,0 +1,13 @@
+Myro move forward
+Myro move backward
+Myro turn left
+Myro turn right
+Myro stop
+Myro hi
+Myro intruduce yourself
+Myro find the ball
+Myro how many people you can see
+Myro who is your father
+
+
+
