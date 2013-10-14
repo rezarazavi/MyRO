@@ -1,4 +1,3 @@
 MyRO is Malaysian Mobile Robot platform recognized by Malaysian Robotic and Automation Interest group .
-It uses open source libraries such as :
-OpenCV, Sphinx, festival and beside that brings socket connection and easy access to robot's IO to provide an easy to use platform for researchers.
+It uses open source libraries such as : OpenCV, Sphinx, festival. Beside that it brings socket connection and easy access to robot's IO to provide an easy to use platform for researchers.
 This project was done in 2012 in Malaysia and I'm using it as my hello world to learn GIT.
