@@ -1,3 +1,20 @@
 MyRO is Malaysian Mobile Robot platform recognized by Malaysian Robotic and Automation Interest group .
 It uses open source libraries such as : OpenCV, Sphinx, festival. Beside that it brings socket connection and easy access to robot's IO to provide an easy to use platform for researchers.
 This project was done in 2012 in Malaysia and I'm using it as my hello world to learn GIT.
+
+I was asked to create this prototype with some components that were already in our company, you can find my hardware list in Myro documentation. I've done the whole work of hardware and software in one month so the codes are hard to understand.
+What you need is a mechanical platform and a controller that supports linux OS.
+To be able compile codes you need to install these open source libraries:
+1- PocketSphinx and SphinxBase.
+2- Festival speech synthesizer.
+3- OpenCV with it’s rest dependencies libraries. follow : http://robocv.blogspot.com.au/2012/01/using-your-ip-camera-with-opencv.html
+
+modifications you need to do:
+1-In my prototype i was using µChameleon as my usb IO and I was controlling motors through this IO. depend on your hardware setup you need to modify IO controlling codes.
+2-For your camera depend on your hardware you need to modify codes.
+3-Set Sphinx to use your microphone.
+
+Enhancements:
+1- Write a structured I/O reader Library to separate the main code from changes that needs to be done when we change hardware.
+2- An structured protocol that transfers whole data from IO through socket connection.
+3- Redo the project on a hardware based on an ARM processor.
